@@ -7,4 +7,5 @@ Step 2: Fetch the new rows<br>
 Step 3: Prepend/append new rows to HTML using JQuery Ajax.<br>
 <br>
 <b>Send</b><br>
-Insert to MySQL table by Ajax POST method.
+Insert to MySQL table by Ajax POST method.<br><br>
+(Check the checkboxes and send new text to check if this works.)
