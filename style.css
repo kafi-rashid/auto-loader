@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+* {
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+:focus {
+	outline: none;
+}
+html, p {
+    padding: 0;
+    margin: 0;
+}
+p {
+	font-size: 20px;
+}
+span {
+	font-size: 13px;
+}
+.center {
+    padding: 10px;
+    width: 350px;
+    margin: 0 auto;
+    position: relative;
+}
+hr {
+	margin: 15px 0;
+}
+textarea, button {
+	border: thin solid lightgray;
+	background-color: transparent;
+	width: 100%;
+	font-size: 15px;
+	margin: 0;
+	padding: 5px;
+}
+textarea {
+	resize: vertical;
+	min-height: 70px;
+	margin-bottom: -5px;
+}
+.text {
+    background-color: white;
+    border: thin solid lightgray;
+    border-radius: 5px;
+    padding: 5px 10px 5px 30px;
+    margin-bottom: 5px;
+}
+input[type='checkbox'] {
+	margin: 3px 0 0 -20px;
+	position: absolute;
+}
